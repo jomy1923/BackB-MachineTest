@@ -1,0 +1,14 @@
+.slider{
+    display: flex;
+
+}
+.slider-img{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+   
+}
+.slider-img img{
+    border: 2px solid silver;
+    border-radius: 15px;
+}

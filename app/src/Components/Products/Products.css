@@ -1,0 +1,86 @@
+.pro-header{
+font-size:35px;
+color: #000000;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+border-bottom: 1px solid silver;
+box-shadow: 0 2px 4px silver;
+align-items: center;
+} 
+h5{
+    color: #0302FE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: end;
+}
+.card{
+    padding: 30px;
+    border-radius: 5px;
+    height: 500px;
+    
+}
+.pro-body{
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 6px silver;
+    
+}
+.pro-single{
+    width: 220px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 9px #aaa;
+    border-radius: 5px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+.pro-single img{
+    width: 103px;
+   
+}
+.p1{
+    margin-bottom: 1px;
+    color: #5F5F5F;
+    font-size: 9px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.p2{
+    margin-bottom: 0;
+    margin-top: 5px;
+    color: #5F5F5F;
+    font-size: 9px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: line-through;
+    float: right;
+}
+.pro-single h6{
+    margin-left: 0;
+    margin-bottom: 1px;
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.pro-single h4{
+color: #0377FF;
+text-align: left;
+margin-bottom: 1px;
+font-size: 18px;
+float: left;
+
+}
+.pro-rate{
+color: #000000 !important;
+margin: 0;
+font-size: 18px;
+float: right;
+}

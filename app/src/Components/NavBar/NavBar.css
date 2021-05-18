@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding:0;
+}
+
+.navbar-container {
+  
+    max-width: 100%;
+  display: flex;
+
+  background-color: white;
+}
+.icons {
+   
+  display: flex;
+  list-style: none;
+  margin-left: 290px;
+  margin-top: 90px;
+  font-size: 23px;
+  opacity: 1;
+}
+.nav-item {
+  padding: 10px;
+}
+.nav-item .badge {
+  position: absolute;
+  top: 100px;
+  right: 216px;
+  padding: 1px 3px;
+  border-radius: 50%;
+  background: #0302FE;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.nav-item .badge1 {
+  position: absolute;
+  top: 97px;
+  right: 135px;
+  padding: 1px 3px;
+  border-radius: 50%;
+  background: #0302FE;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.navbar-logo {
+  text-decoration: none;
+  margin-left: 87px;
+  margin-top: 82px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+.nav-form{
+margin-top: 100px;
+margin-left: 117px;
+}
+.search {
+  position: relative;
+  text-align: center;
+}
+.search input {
+  text-indent: 30px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  color: #dfdfdf;
+  opacity: 1;
+}
+.search input::placeholder {
+  color: #dfdfdf;
+}
+.search .fa-search {
+  position: absolute;
+  top: 9px;
+  left: 95%;
+  font-size: 13px;
+  opacity: 0.5;
+}
+input {
+  width: 150px;
+  padding: 5px;
+  margin: 15px;
+  height: 25px;
+  outline: none;
+}
+.small-products{
+   
+    background-color: #0302FE;
+   width: 100%;
+    height: 110px;
+    padding-left: 10%;
+
+
+}
+.blue {
+    
+    display:inline-block;
+    margin-right: -4px;
+    box-sizing: border-box;
+    padding: 25px;
+  
+}
+
+.blue > div {
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   background-color: #F9DE08;
+    border-radius: 50%
+    
+}
+.blue span{
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 60px;
+    margin-top: 5px;
+    
+    
+}
+.blue img{
+    padding-top: 5px;
+    align-items: center;
+}
