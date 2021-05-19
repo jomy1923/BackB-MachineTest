@@ -8,7 +8,8 @@ const {MONGOURI} = require('./keys')
 
 mongoose.connect(MONGOURI,{
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
 })
 mongoose.connection.on('connected',()=>{
     console.log('CONNECTED TO MONGOOSE'); 
