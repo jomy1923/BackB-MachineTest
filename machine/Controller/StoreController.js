@@ -15,17 +15,22 @@ function StoreController(){
                   $geoNear: {
                      near: { type: "Point", coordinates: [ lat , lng] },
                      distanceField: "dist.calculated",
-                     maxDistance: 10000,
-                     spherical: true
+                     maxDistance: 5000,
+                     spherical: true,
+                    result: { $and: [ { near: { type: "Point", coordinates: [ lat , lng] } }, { "dist.calculated": {  $lt:'$Radius'}
+                    } ] }
                   }
                 }
-             ]).then((data)=>{
+                
+             ])
+            //  console.log('data',data);
+             .then((data)=>{
                  res.json(data)
              }).catch((err)=>{
                  console.log('err',err);
              })
              
-           
+          
         },
         addStore(req,res){
             const{StoreName,geometry,Radius}= req.body
